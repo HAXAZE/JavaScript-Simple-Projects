@@ -20,10 +20,17 @@ const addNotes = ()=>{
     note.innerHTML=`
   
     <div class="tool">
-        <i class="fas fa-save"></i>
-        <i class="fas fa-trash"></i>
+        <i class=" save fas fa-save"></i>
+        <i class=" trash fas fa-trash"></i>
     </div>
     <textarea ></textarea>`;
 
+    // this is the function to delete the note whenerver trash icon is clicked
+    note.querySelector(".trash").addEventListener(
+        "click",
+        function(){
+            note.remove();
+        }
+    )
     main.appendChild(note)
 }
