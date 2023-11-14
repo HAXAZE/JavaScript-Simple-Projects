@@ -21,8 +21,15 @@ const addTodo = (item) =>{
     listItem.addEventListener(
         "click",
         function(){
-            this.classList.toggle("");
+            this.classList.toggle("done");
         }
+    )
+    listItem.querySelector("i").addEventListener(
+        "click",
+        function(){
+            listItem.remove()
+        }
+
     )
 
     todobox.appendChild(listItem);

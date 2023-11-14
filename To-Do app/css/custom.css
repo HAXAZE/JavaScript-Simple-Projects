@@ -45,9 +45,15 @@ main{
     padding-right: 30px;
     text-align: justify;
     margin: 10px;
+    user-select: none;
 }
 #to-do-box li i{
     position: absolute;
     right: 10px;
     top: 5px;
+}
+.done{
+    text-decoration: line-through;
+    color: black;
+    background-color: rgba(138, 136, 134, 0.466) !important;
 }
