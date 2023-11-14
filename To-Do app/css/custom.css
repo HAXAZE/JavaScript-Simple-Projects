@@ -15,8 +15,39 @@ main{
     align-items: center;
 }
 .box{
+    padding: 15px;
     width: 600px;
     min-height: 500px;
     background-color: white;
     border-radius: 8px;
+}
+#item{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 6px;
+    font-weight: bold;
+    display: block;
+}
+#to-do-box{
+    margin-top: 20px;
+    list-style: none;
+}
+#to-do-box li{
+    background-color:#9980FA;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    padding-right: 30px;
+    text-align: justify;
+    margin: 10px;
+}
+#to-do-box li i{
+    position: absolute;
+    right: 10px;
+    top: 5px;
 }

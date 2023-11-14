@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do App</title>
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
         
     <main>
-        <div class="box"></div>
+        <div class="box">
+            <input type="text" id="item" autofocus placeholder="Write Your Tasks here">
+            <ul id="to-do-box">
+                <li>
+                    code a software
+                    <i class="fas fa-times"></i>
+                </li>
+            </ul>
+        </div>
     </main>
+    <script src="https://kit.fontawesome.com/28caeb2961.js" crossorigin="anonymous"></script>
     <script src="js/App.js"></script>
 </body>
 </html>
